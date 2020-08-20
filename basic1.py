@@ -23,7 +23,7 @@ while(True):
         if  (("no" in user_input) or ("dont" in user_input) or ("don't" in user_input)) and (("chrome" in user_input) or ("broswer" in user_input)):
             #pt.speak("Anything else sir...!")
             print("Anything Else sir :)",end="\n")
-            s.system("clear")
+            s.system("cls")
             
         else:
             print("""
