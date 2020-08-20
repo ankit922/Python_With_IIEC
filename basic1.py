@@ -6,7 +6,7 @@ import pywhatkit as wt
 import smtplib as smt
 
 pt=ps.init()
-pt.setProperty('rate',150)
+pt.setProperty('rate',175)
 while(True):
     pt.say("How May I Help You Sir...!")
     pt.runAndWait()
