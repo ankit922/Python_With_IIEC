@@ -10,7 +10,7 @@ while(True):
     user_input=(input("How May I Help You Sir...?")).lower()
     if (("open" in user_input) or ("launch" in user_input) or ("load" in user_input) or ("run" in user_input) or ("execute" in user_input) or ("exec" in user_input) or "start" in user_input) and ("notepad" in user_input) or ("notepad" in user_input) :
     
-        if  (("no" in user_input) or ("dont" in user_input) or ("don't" in user_input)) and (("chrome" in user_input) or ("broswer" in user_input)):
+        if  (("no" in user_input) or ("dont" in user_input) or ("don't" in user_input)) and ("notepad" in user_input):
             #pt.speak("Anything else sir...!")
             print("Anything Else sir :)",end="\n")
         else:
