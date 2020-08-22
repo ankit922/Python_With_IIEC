@@ -13,7 +13,7 @@ pt.setProperty('rate',180)
 pt.say("How May I Help You Sir...!")
 pt.runAndWait()
 while(True):
-    print("How may i Help You sir...!")
+    print("How may i Help You sir...?")
     r=sr.Recognizer()
     r.pause_threshold=1
     print("Listening...!")
