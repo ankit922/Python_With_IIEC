@@ -13,7 +13,7 @@ pt.setProperty('rate',180)
 pt.say("How May I Help You Sir...!")
 pt.runAndWait()
 while(True):
-    print("How may i Help You sir...?")
+    print("How May i Help You sir...?")
     r=sr.Recognizer()
     r.pause_threshold=1
     print("Listening...!")
@@ -318,6 +318,7 @@ while(True):
             pt.say("Anything else sir...!")
             pt.runAndWait()
             print("Anything Else sir :)",end="\n")
+            s.system("cls")
             
             
         else:
@@ -336,6 +337,7 @@ while(True):
             
         if (("no" in user_input) or ("dont" in user_input) or ("don't" in user_input))  and ("date" in user_input):
                 pt.say("Anything else sir...!")
+                pt.runAndWait()
                 print("Anything Else sir :)",end="\n")
             
             
