@@ -490,7 +490,7 @@ while(True):
         input("Enter to continue..!")
         s.system("cls")
     
-    elif ("Entertain me" in user_input):
+    elif ("entertain me" in user_input):
         
         url1='http://randomfactgenerator.net/'
         page=rs.get(url1)
