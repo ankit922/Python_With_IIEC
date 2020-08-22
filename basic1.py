@@ -440,7 +440,7 @@ while(True):
             
             7:-Date \t\t\t\t 8:-chrome \t\t \t9:-Show me latest news 
             
-            10:-Entertain me
+            10:-Entertain me \t\t 11:-Weather
             
             """)
         pt.say(" Which Task would You like to Perform,Enter its name")
