@@ -22,7 +22,7 @@ while(True):
             audio=r.listen(source)
             print("Recognizing..!")
             text=r.recognize_google(audio)
-    
+    print("text")
     #user_input=(input('How may i Help you sir..?').lower())
     user_input=text.lower()
     if ("hi" in user_input or "hello" in user_input):
